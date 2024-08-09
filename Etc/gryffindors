@@ -1,0 +1,8 @@
+import cowsay
+import pyttsx3
+
+enigine = pyttsx3.init()
+this = input("What to say? ")
+cowsay.cow(this)
+enigine.say(this)
+enigine.runAndWait()
